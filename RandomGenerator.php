@@ -1,18 +1,5 @@
 <?php
 
-
-$GG = new RandomGenerator();
-
-$st = $GG->GetRandomString();
-
-
-
-$tt = $GG->GetRandomInt();
-
-
-
-echo $GG->Random();
-
 class RandomGenerator{
 
 	protected $totalLength;
